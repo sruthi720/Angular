@@ -10,7 +10,7 @@
 }
 
 #forget{
-    min-width: 100px;
+    min-width: 101px;
     margin-left: none;
     text-decoration: none;
     cursor: pointer;
@@ -64,7 +64,6 @@ input[type='password']{
     border: none;
     outline: none;
     box-shadow: none;
-    color: black;
 
 }
 
