@@ -7,14 +7,18 @@ import { Component } from '@angular/core';
 })
 export class LoginComponent {
 
- type: string= "password"
- constructor(){}
+  type: string="password";
+  isText: boolean= false;
+  eyeicon: string ="fa-eye-slash";
+  
 
  ngOnInit(): void{
 
  }
-
  hideShowPass(){
+  this.isText=!this.isText ;
+  this.isText? this.eyeicon="fa-eye" :this.eyeicon="fa-eye-slash";
+  this.isText? this.type="text":this.type="password";
+}
 
- }
 }
